@@ -23,7 +23,7 @@ client.on("message", message => {
     //shift returns the first element from the array, ie the command
     //tolowercase ensures !command !Command !COMMAND all work
 
-    if(command === "triggered")
+    if(command === "ree")
     {
         //let member = message.mentions.members.first();
 
