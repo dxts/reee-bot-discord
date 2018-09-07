@@ -40,7 +40,7 @@ client.on("message", message => {
     }
 });
 
-client.on("guildMemberAdd", message => {
+/*client.on("guildMemberAdd", message => {
     message.channel.send("Hello there");
-});
+});*/
 client.login(config.token);
