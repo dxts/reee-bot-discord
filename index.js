@@ -31,7 +31,7 @@ client.on("message", message => {
         
         //creates the REEE string with random number of Es 
         var ree= 'R';
-        num_e=Math.floor(Math.random()*10 + 3);
+        num_e=Math.floor(Math.random()*15 + 3);
         for(var i=0; i<=num_e; i++){
             ree += 'E';
         }
