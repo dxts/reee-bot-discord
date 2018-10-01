@@ -40,7 +40,6 @@ client.on("message", message => {
     }
 });
 
-/*add welcome message here*/
 /*client.on("message", message => {
 
     if(message.author.bot) return;
