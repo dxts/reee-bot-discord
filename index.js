@@ -40,7 +40,27 @@ client.on("message", message => {
     }
 });
 
-/*client.on("guildMemberAdd", message => {
-    message.channel.send("Hello there");
-});*/
+
+/*client.on("message", message => {
+
+    if(message.author.bot) return;
+
+    var keywords = ['gender', 'minecraft', 'jake paul', 'logan paul'];
+    var msg = message.content.toLowerCase();
+
+    var i = ""; 
+    for(i in keywords){
+        if( msg.includes(i)){
+            var ree= 'R';
+            num_e=Math.floor(Math.random()*10 + 3);
+            for(var i=0; i<=num_e; i++){
+                ree += 'E';
+            }
+            
+            message.channel.send(ree);
+        }
+    }
+});
+*/
+
 client.login(config.token);
