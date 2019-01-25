@@ -1,0 +1,26 @@
+{
+  "name": "reee-bot-discord",
+  "version": "1.0.0",
+  "description": "Discord bot that replies with REEE *(3-12 Es)* whenever triggered. As of right now the keyword is **!ree** .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxts/reee-bot-discord.git"
+  },
+  "keywords": [
+    "discord",
+    "js"
+  ],
+  "author": "dxts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxts/reee-bot-discord/issues"
+  },
+  "homepage": "https://github.com/dxts/reee-bot-discord#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
